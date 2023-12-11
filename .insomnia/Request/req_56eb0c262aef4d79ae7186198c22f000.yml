@@ -1,0 +1,31 @@
+_id: req_56eb0c262aef4d79ae7186198c22f000
+type: Request
+parentId: fld_642e919f053f4b64a6888d1ac6af158a
+modified: 1702300211547
+created: 1702300066264
+url: "{{ _.url_base }}/auth/login"
+name: login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"username": "system@servicepad.com",
+    	"password": "ABcd12@"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1702300077395
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
